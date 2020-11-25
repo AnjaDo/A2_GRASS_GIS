@@ -3,6 +3,7 @@
 
 ## 1. Create new location in GRASS GIS
 
+
 Creating new location with Info from GHS_POP_E2015_GLOBE_R2019A_54009_250_V1_0_18_3.tif
 
 ```
@@ -11,6 +12,7 @@ gives us World Mollweide = EPSG:54009
 ```
 
 ## 2. Import data with `v.import`, `v.in.ogr`, `r.import` or `r.in.ogr`.
+
 
 ### 2.1 Import Motorways vectorlayer
 
@@ -37,6 +39,7 @@ r.import input=/Users/anjadoppelmayr/Desktop/Fossgis/Assignment2/A2_GRASS_GIS/da
 ```
 
 ## 3. Calculate the total population of the districts
+
 
 ### 3.1 Set the region
 
@@ -74,6 +77,7 @@ Using the "Query raster/vector maps" tool we can derive the following numbers:
 The (recent) official numbers are slightly higher than the calculated population numbers. This can be due to the Global Human Settlement Layer, which provides only estimates up until 2015. [GHSL Data] (https://ghsl.jrc.ec.europa.eu/download.php?ds=pop)
 
 ## 4. Calculate total population living within 1km of motorways
+
 
 Checking _map units_ to know what to insert in _distance_ in buffer calculation
 ```
