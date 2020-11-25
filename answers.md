@@ -1,4 +1,4 @@
-# Assignment 2: GIS analyses using GRASS GIS
+# Assignment 2: GIS Analyses using GRASS GIS
 
 
 ## 1. Create new location in GRASS GIS
