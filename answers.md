@@ -10,7 +10,7 @@ gdalinfo GHS_POP_E2015_GLOBE_R2019A_54009_250_V1_0_18_3.tif
 gives us World Mollweide = EPSG:54009
 ```
 
-## 2. Import data with `v.import`, `v.in.ogr`, `r.import` or `r.in.ogr`
+## 2. Import data with `v.import`, `v.in.ogr`, `r.import` or `r.in.ogr`.
 
 ### 2.1 Import Motorways vectorlayer
 
