@@ -4,7 +4,7 @@
 ## 1. Create new location in GRASS GIS
 
 
-Creating new location with Info from GHS_POP_E2015_GLOBE_R2019A_54009_250_V1_0_18_3.tif
+Creating new location with Info from GHS_POP_E2015_GLOBE_R2019A_54009_250_V1_0_18_3.tif.
 
 ```
 gdalinfo GHS_POP_E2015_GLOBE_R2019A_54009_250_V1_0_18_3.tif
@@ -22,12 +22,12 @@ v.import input=/Users/anjadoppelmayr/Desktop/Fossgis/Assignment2/A2_GRASS_GIS/da
 
 ### 2.2 Import Administrative Districts of Baden-Württemberg
 
-Importing only districts of Baden-Württemberg (ID_1=1) to a temporal location
+Importing only districts of Baden-Württemberg (ID_1=1) to a temporal location.
 ```
 v.in.ogr input=/Users/anjadoppelmayr/Desktop/Fossgis/Assignment2/A2_GRASS_GIS/data/gadm28_adm2_germany.shp output=GADM where=ID_1=1 location=temp
 ```
 
-Projecting and loading the data into the Permanent mapset
+Projecting and loading the data into the Permanent mapset.
 ```
 v.proj location=temp mapset=PERMANENT input=GADM output=GADM
 ```
